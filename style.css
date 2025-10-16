@@ -1,0 +1,30 @@
+body {
+background-color: rgb(255, 165, 240);
+}
+h1{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-auto-rows: minmax(70px, auto);
+    color: hotpink;
+    gap: 40px; }
+p {
+background-color: brown;
+background-color: rgb(255, 0, 170);
+margin: 100px 100px 100px 100px;
+border: 1px solid rgb(107, 50, 50);
+padding: 50px;
+color: rgb(145, 205, 255);
+background-color: rgb(227, 77, 182);
+}
+b {
+background-color: rgb(254, 167, 255);
+}
+
+a{
+    color: rgb(212, 12, 12);
+    color: antiquewhite;
+}

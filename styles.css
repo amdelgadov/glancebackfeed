@@ -1,0 +1,26 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3360px, 1fr));
+    gap: 3px;
+    max-width: 0%;
+    margin: 10%;
+    padding: 19%;
+   
+   
+}
+
+.item img{
+    width: 100px;
+    height: auto;
+    display: block;
+    filter: blur(10.3);
+    transition: filter 0.3s case, transform 0.3s ease;
+
+}
+
+.item img:hover{
+    filter: grayscale(10.3s);
+
+}
